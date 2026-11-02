@@ -11,7 +11,7 @@ Requirements: Python 3.12 and Node.js 22.12+ for a source build. Music generatio
 Clone this fork, install the current runtime and official CUDA wheel, download the models, and build Studio:
 
 ```powershell
-git clone https://github.com/BureauObscura/YuE.git
+git clone https://github.com/SpacelyDigital/YuE.git
 cd YuE
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
@@ -35,7 +35,7 @@ The CUDA command above matches YuE2 0.1.6 and the current CUDA 13.0 PyTorch whee
 macOS 13 or later also requires Apple's Xcode Command Line Tools. Install those tools with `xcode-select --install`, then build the native wrapper:
 
 ```sh
-git clone https://github.com/BureauObscura/YuE.git
+git clone https://github.com/SpacelyDigital/YuE.git
 cd YuE
 cd studio/web
 npm ci

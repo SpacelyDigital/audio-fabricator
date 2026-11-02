@@ -26,7 +26,7 @@ random port.
 ## Download
 
 Use the newest package on the
-[Releases page](https://github.com/BureauObscura/audio-fabricator/releases).
+[Releases page](https://github.com/SpacelyDigital/audio-fabricator/releases).
 The offline Windows release is split into numbered 7-Zip volumes because the
 models and portable runtimes are larger than GitHub's per-asset limit.
 
